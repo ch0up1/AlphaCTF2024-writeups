@@ -18,4 +18,10 @@ we can see in the code that the "inp" variable must :
   -be 3 string length
   -must be bigger than 10e99
 
-so if i pass 
+so if i pass : float("+inf")
+
+the length of the inp :len(str(float("+inf")))==3 
+and inf is bigger >>>>>> than 10e99 so we can get th flag 
+
+
+![Screenshot 2024-03-11 175514](https://github.com/ch0up1/AlphaCTF2024-writeups/assets/162801424/368788af-3efa-4f7e-bd85-0e51398ed1c4)
