@@ -17,6 +17,7 @@ from :https://www.geeksforgeeks.org/vulnerability-input-function-python-2-x/
 we can see in the code that the "inp" variable must :
   
   1-be 3 string length
+  
   2-be bigger than 10e99
 
 so if i pass : float("+inf")
