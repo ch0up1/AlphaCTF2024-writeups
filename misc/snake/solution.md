@@ -13,3 +13,9 @@ first thing we can see that the script is run in python 2 and from previous know
 from :https://www.geeksforgeeks.org/vulnerability-input-function-python-2-x/ 
 ![Screenshot 2024-03-11 115621](https://github.com/ch0up1/AlphaCTF2024-writeups/assets/162801424/906ca482-3fcb-4b7c-9c2b-d4136474026c)
 
+
+we can see in the code that the "inp" variable must :
+  -be 3 string length
+  -must be bigger than 10e99
+
+so if i pass 
