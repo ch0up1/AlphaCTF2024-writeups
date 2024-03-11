@@ -15,6 +15,7 @@ from :https://www.geeksforgeeks.org/vulnerability-input-function-python-2-x/
 
 
 we can see in the code that the "inp" variable must :
+  
   -be 3 string length
   -must be bigger than 10e99
 
