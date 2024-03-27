@@ -7,7 +7,7 @@
         throw new Error('Network response was not ok');
       }
       // Extract the response body as text
-      return response.text(); // or response.json() if you expect JSON
+      return response.text(); 
     })
     .then(data => {
       // Process the fetched data
